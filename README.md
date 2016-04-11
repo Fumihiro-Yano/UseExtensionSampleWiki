@@ -1,0 +1,2 @@
+# UseExtensionSampleWiki
+Extensionを利用して、Stringを拡張するテスト
