@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		E7B3102E1CBBE7B70063056F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B3102D1CBBE7B70063056F /* AppDelegate.swift */; };
 		E7B310301CBBE7B70063056F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B3102F1CBBE7B70063056F /* ViewController.swift */; };
-		E7B310331CBBE7B70063056F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7B310311CBBE7B70063056F /* Main.storyboard */; };
 		E7B310351CBBE7B70063056F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7B310341CBBE7B70063056F /* Assets.xcassets */; };
 		E7B310381CBBE7B70063056F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7B310361CBBE7B70063056F /* LaunchScreen.storyboard */; };
 		E7B310431CBBE7B70063056F /* UseExtensionSampleWikiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B310421CBBE7B70063056F /* UseExtensionSampleWikiTests.swift */; };
 		E7B3104E1CBBE7B70063056F /* UseExtensionSampleWikiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B3104D1CBBE7B70063056F /* UseExtensionSampleWikiUITests.swift */; };
+		E7B3105D1CBBEC030063056F /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B3105C1CBBEC030063056F /* String.swift */; settings = {ASSET_TAGS = (); }; };
+		E7B3105F1CBBED760063056F /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B3105E1CBBED760063056F /* ViewController2.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,6 @@
 		E7B3102A1CBBE7B70063056F /* UseExtensionSampleWiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UseExtensionSampleWiki.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7B3102D1CBBE7B70063056F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7B3102F1CBBE7B70063056F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E7B310321CBBE7B70063056F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E7B310341CBBE7B70063056F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7B310371CBBE7B70063056F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7B310391CBBE7B70063056F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		E7B310491CBBE7B70063056F /* UseExtensionSampleWikiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UseExtensionSampleWikiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7B3104D1CBBE7B70063056F /* UseExtensionSampleWikiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseExtensionSampleWikiUITests.swift; sourceTree = "<group>"; };
 		E7B3104F1CBBE7B70063056F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7B3105C1CBBEC030063056F /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		E7B3105E1CBBED760063056F /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		E7B310211CBBE7B70063056F = {
 			isa = PBXGroup;
 			children = (
+				E7B3105B1CBBEBEE0063056F /* New Group */,
 				E7B3102C1CBBE7B70063056F /* UseExtensionSampleWiki */,
 				E7B310411CBBE7B70063056F /* UseExtensionSampleWikiTests */,
 				E7B3104C1CBBE7B70063056F /* UseExtensionSampleWikiUITests */,
@@ -99,7 +102,7 @@
 			children = (
 				E7B3102D1CBBE7B70063056F /* AppDelegate.swift */,
 				E7B3102F1CBBE7B70063056F /* ViewController.swift */,
-				E7B310311CBBE7B70063056F /* Main.storyboard */,
+				E7B3105E1CBBED760063056F /* ViewController2.swift */,
 				E7B310341CBBE7B70063056F /* Assets.xcassets */,
 				E7B310361CBBE7B70063056F /* LaunchScreen.storyboard */,
 				E7B310391CBBE7B70063056F /* Info.plist */,
@@ -123,6 +126,15 @@
 				E7B3104F1CBBE7B70063056F /* Info.plist */,
 			);
 			path = UseExtensionSampleWikiUITests;
+			sourceTree = "<group>";
+		};
+		E7B3105B1CBBEBEE0063056F /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				E7B3105C1CBBEC030063056F /* String.swift */,
+			);
+			name = "New Group";
+			path = UseExtensionSampleWiki;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +245,6 @@
 			files = (
 				E7B310381CBBE7B70063056F /* LaunchScreen.storyboard in Resources */,
 				E7B310351CBBE7B70063056F /* Assets.xcassets in Resources */,
-				E7B310331CBBE7B70063056F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +269,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7B3105D1CBBEC030063056F /* String.swift in Sources */,
+				E7B3105F1CBBED760063056F /* ViewController2.swift in Sources */,
 				E7B310301CBBE7B70063056F /* ViewController.swift in Sources */,
 				E7B3102E1CBBE7B70063056F /* AppDelegate.swift in Sources */,
 			);
@@ -295,14 +308,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E7B310311CBBE7B70063056F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E7B310321CBBE7B70063056F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E7B310361CBBE7B70063056F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
